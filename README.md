@@ -1,37 +1,6 @@
-# [Gamemakin](https://gamemak.in) UE4 Style Guide() {
+# [TreehouseGames](https://treehousegames.com) UE4 Style Guide() {
 
-*A mostly reasonable approach to Unreal Engine 4*
-
-Heavily inspired by the [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript).
-
-[![Analytics](https://ga-beacon.appspot.com/UA-80567399-1/repo?useReferrer)](#)
-
-## Repo Notice
-
-This repo is now located at https://github.com/Allar/ue5-style-guide. The default branch of this repository has been renamed `main`.
-
-## This is currently for UE4. For UE5/v2, see the v2 branch.
-## Linter and Style Guide Documentation
-
-More technical documentation regarding Linter and the Style Guide can be found at our [ReadTheDocs](https://ue4-style-guide.readthedocs.io/en/latest/) page.
-
-## Discuss This Style Guide
-
-Gamemakin LLC has a public Discord channel at http://discord.gamemak.in with a #linter channel if you'd like to discuss all things style guide and Linter plugin.
-
-## Linking To This Document
-
-Every section of this style guide is numbered for both easy reference and easy linking. You can link to any section directly by simply append a hash tag and the section number to the end of http://ue4.style
-For example, if you want to send someone to the first principle of this style guide you would append `#0.1`, resulting in http://ue4.style#0.1.
-
-## Forks And Translations
-
-If you have made a notable fork or translation that is not suitable for a pull request into this repo, please submit a pull request to add the fork or translation here.
-
-* [Korean Translation](https://github.com/ymkim50/ue4-style-guide/blob/master/README_Kor.md) by ymkim50
-* [Russian Translation](https://github.com/CosmoMyzrailGorynych/ue4-style-guide-rus/blob/master/README.md) by CosmoMyzrailGorynych
-* [Japanese Translation](https://github.com/akenatsu/ue4-style-guide/blob/master/README.jp.md) by akenatsu
-* [Chinese Translation](https://github.com/skylens-inc/ue4-style-guide/blob/master/README.md) by Beijing Skylens Tech.
+*Based on the [Gamemakin Style Guide](https://github.com/Allar/ue5-style-guide)*
 
 ## Important Terminology
 
@@ -83,14 +52,11 @@ When in the context of a class, it is often used to convey discussion about its 
 These principles have been adapted from [idomatic.js style guide](https://github.com/rwaldron/idiomatic.js/).
 
 <a name="0.1"></a>
-### 0.1 If your UE4 project already has a style guide, you should follow it.
+### 0.1 A style guide should unite the team in how we build content.
 
-If you are working on a project or with a team that has a pre-existing style guide, it should be respected.  Any inconsistency between an existing style guide and this guide should defer to the existing.
+Rather than each person, team, or project spending time debating the proper casing to use or naming structuers, one unified style guide ensures we can spend more time making games.
 
-Style guides should be living documents. You should propose style guide changes to an existing style guide as well as this guide if you feel the change benefits all usages.
-
-> #### "Arguments over style are pointless. There should be a style guide, and you should follow it."
-> [_Rebecca Murphey_](https://rmurphey.com)
+Style guides should be living documents. You should propose style guide changes to this guide if you feel the change benefits all usages.
 
 <a name="0.2"></a>
 ### 0.2 All structure, assets, and code in any Unreal Engine 4 project should look like a single person created it, no matter how many people contributed.
@@ -99,14 +65,12 @@ Moving from one project to another should not cause a re-learning of style and s
 
 It also allows for more productive creation and maintenance as one does not need to think about style. Simply follow the instructions. This style guide is written with best practices in mind, meaning that by following this style guide you will also minimize hard to track issues.
 
+Finally, in building live service games your content will worked on for years after you make it. Keeping true to the style guide ensures that if a project last a decade, a designer looking at your 10 year old blueprints can follow what you were doing.
+
 <a name="0.3"></a>
-### 0.3 Friends do not let friends have bad style.
+### 0.3 Disciplines, teams, or individuals can expand on this style guide, but not replace it.
 
-If you see someone working either against a style guide or no style guide, try to correct them.
-
-When working within a team or discussing within a community such as [Unreal Slackers](http://join.unrealslackers.org/), it is far easier to help and to ask for help when people are consistent. Nobody likes to help untangle someone's Blueprint spaghetti or deal with assets that have names they can't understand.
-
-If you are helping someone whose work conforms to a different but consistent and sane style guide, you should be able to adapt to it. If they do not conform to any style guide, please direct them here.
+Groups might want to introduce guidelines not covered by this style guide that don't make sense to include in the larger guide, and are encouraged to do so. However, those changes should not overwrite the rules presented in this style guide, or run counter to their purpose.
 
 <a name="0.4"></a>
 ### 0.4 A team without a style guide is no team of mine.
@@ -116,7 +80,7 @@ When joining an Unreal Engine 4 team, one of your first questions should be "Do 
 <a name="0.5"></a>
 ### 0.5 Don't Break The Law
 
-Gamemakin LLC is not a lawyer, but please don't introduce illegal actions and behavior to a project, including but not limited to:
+Treehouse Games is not a lawyer, but please don't introduce illegal actions and behavior to a project, including but not limited to:
 
 * Don't distribute content you don't have the rights to distribute
 * Don't infringe on someone else's copyrighted or trademark material
@@ -125,8 +89,6 @@ Gamemakin LLC is not a lawyer, but please don't introduce illegal actions and be
 
 <a name="00"></a>
 ## 00. Globally Enforced Opinions
-
-@TODO: Make this section 1 and update this document accordingly. Or maybe we don't?
 
 <a name="00.1"></a>
 ### 00.1 Forbidden Characters
