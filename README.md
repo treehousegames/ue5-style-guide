@@ -73,12 +73,7 @@ Finally, in building live service games your content will worked on for years af
 Groups might want to introduce guidelines not covered by this style guide that don't make sense to include in the larger guide, and are encouraged to do so. However, those changes should not overwrite the rules presented in this style guide, or run counter to their purpose.
 
 <a name="0.4"></a>
-### 0.4 A team without a style guide is no team of mine.
-
-When joining an Unreal Engine 4 team, one of your first questions should be "Do you have a style guide?". If the answer is no, you should be skeptical about their ability to work as a team.
-
-<a name="0.5"></a>
-### 0.5 Don't Break The Law
+### 0.4 Don't Break The Law
 
 Treehouse Games is not a lawyer, but please don't introduce illegal actions and behavior to a project, including but not limited to:
 
